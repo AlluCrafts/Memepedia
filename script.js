@@ -119,7 +119,30 @@ const memes = [
         imageUrl: "https://imageio.forbes.com/blogs-images/olliebarder/files/2018/05/pigeon_meme_fighbird-1200x806.jpg?height=477&width=711&fit=bounds", // Placeholder image URL
         keywords: ["pigeon", "butterfly", "anime", "brave fighter of sun figthbird", "mistaking"] 
     },
-    // Add more memes with their descriptions, image URLs, and keywords here...
+    {
+        name: "Smurfcat",
+        description: "A cat with a smurf costume. It was popularised by Alan Walker's Spectre song, with the words being 'We live, we love, we lie'.",
+        imageUrl: "https://miro.medium.com/v2/resize:fit:598/1*-KK3SRZBrrqODshRTsZoEg.png",
+        keywords: ["smurf", "cat", "funny", "cute", "Alan Walker", "Spectre"]
+    },
+    {
+        name: "Guy tapping head",
+        description: "A guy tapping his head. Mostly used as an ironic way to explain theories that are nonsense.",
+        imageUrl: "https://pyxis.nymag.com/v1/imgs/d6a/dc7/4a5001b7beea096457f480c8808572428b-09-roll-safe.rsquare.w400.jpg",
+        keywords: ["funny", "big brain", "ironic", "tapping head", "guy"]
+    },
+    {
+        name: "Huh?",
+        description: "A guy making a confused facial expression. Mostly used when someone says something weird.",
+        imageUrl: "https://us-tuna-sounds-images.voicemod.net/6b0dcdfe-152e-4939-a750-a1140ce26d05-1691114346708.jpg",
+        keywords: ["funny", "confused", "what", "weird"]
+    },
+    {
+        name: "Mike Wazowski face swap",
+        description: "A funny looking face swapped photo of Mike Wazowski from th film 'Monsters Inc'",
+        imageUrl: "https://i.kym-cdn.com/entries/icons/facebook/000/031/003/cover3.jpg",
+        keywords: ["funny", "distorted", "monster", "green", "weird face"]
+    },
 ];
 
 const searchInput = document.getElementById("searchInput");
